@@ -1,51 +1,40 @@
-from dolfin import *
-import numpy as np 
+'''
+Author: Jarvis-Chiang 497694894@qq.com
+Date: 2024-07-10 10:38:59
+LastEditors: Jarvis-Chiang 497694894@qq.com
+LastEditTime: 2024-08-02 11:21:49
+FilePath: /fenicsprojects/让我测试一下/test.py
+Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+'''
+import vtk
 
-LENGTH = 1.0
-WIDTH = 0.2
-HEIGHT = 0.1
+# 创建一个 Sphere 对象
+sphere = vtk.vtkSphereSource()
+sphere.SetRadius(5.0)
+sphere.SetPhiResolution(50)
+sphere.SetThetaResolution(50)
 
-LAMA_MU = 1.0
-LAMA_LAMBDA = 1.25
+# 创建一个 Mapper 对象
+mapper = vtk.vtkPolyDataMapper()
+mapper.SetInputConnection(sphere.GetOutputPort())
 
-def epsilon(u):
-    engineering_strain = 0.5 * (nabla_grad(u) + nabla_grad(u).T)
-    return engineering_strain
+# 创建一个 Actor 对象
+actor = vtk.vtkActor()
+actor.SetMapper(mapper)
 
-def sigma(u):
-    cauchy_stress = LAMA_LAMBDA * tr(epsilon(u))*Identity(2) + 2 * LAMA_MU * epsilon(u)
-    return cauchy_stress
+# 创建一个 Renderer 对象
+renderer = vtk.vtkRenderer()
+renderer.AddActor(actor)
+renderer.SetBackground(0.1, 0.2, 0.4)  # 背景颜色
 
-mesh = UnitSquareMesh(10,10)
-V = VectorFunctionSpace(mesh, "Lagrange", 1)
-# plot(mesh)
+# 创建一个 RenderWindow 对象
+renderWindow = vtk.vtkRenderWindow()
+renderWindow.AddRenderer(renderer)
 
-# Boundary Conditions
-def clamped_boundary(x, on_boundary):
-    return on_boundary and x[0] < DOLFIN_EPS
+# 创建一个 RenderWindowInteractor 对象
+renderWindowInteractor = vtk.vtkRenderWindowInteractor()
+renderWindowInteractor.SetRenderWindow(renderWindow)
 
-db = DirichletBC(
-    V,
-    Constant((0.0, 0.0)),
-    clamped_boundary,
-)
-
-u_trial = TrialFunction(V)
-v_test = TestFunction(V)
-
-forcing = Constant((1, 1))
-
-lhs = inner(sigma(u_trial), nabla_grad(v_test)) * dx
-rhs = dot(forcing, v_test) * dx
-
-u_solution = Function(V)
-
-problem = LinearVariationalProblem(lhs, rhs, u_solution, bcs=db)
-
-solver = LinearVariationalSolver(problem)
-solver.solve()
-
-print("pause..................................")
-print(u_solution.vector()[:])
-
-
+# 开始渲染并交互
+renderWindow.Render()
+renderWindowInteractor.Start()
