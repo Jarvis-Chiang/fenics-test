@@ -1,0 +1,5 @@
+/tmp/tmppdd3ddg0/dolfin_expression_cb547a4bbd65a54673b7216699e2584c.cpp: In member function 'virtual void dolfin::dolfin_expression_cb547a4bbd65a54673b7216699e2584c::eval(Eigen::Ref<Eigen::Matrix<double, -1, 1> >, Eigen::Ref<const Eigen::Matrix<double, -1, 1> >) const':
+/tmp/tmppdd3ddg0/dolfin_expression_cb547a4bbd65a54673b7216699e2584c.cpp:64:35: error: 'dx' was not declared in this scope; did you mean 'x'?
+   64 |           values[0] = theta*theta*dx;
+      |                                   ^~
+      |                                   x

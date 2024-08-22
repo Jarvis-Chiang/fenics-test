@@ -1,0 +1,20 @@
+2024-08-11 13:32:42,732 - INFO - This is an info log message.
+2024-08-11 13:32:42,733 - ERROR - This is an error log message.
+2024-08-11 13:33:11,450 - INFO - This is an info log message.
+2024-08-11 13:33:11,450 - INFO - This is an info log message.
+2024-08-11 13:33:11,452 - ERROR - This is an error log message.
+2024-08-11 13:33:11,452 - ERROR - This is an error log message.
+2024-08-11 13:33:20,452 - INFO - This is an info log message.
+2024-08-11 13:33:20,453 - ERROR - This is an error log message.
+2024-08-11 13:33:25,629 - INFO - 这是一个info
+2024-08-11 13:43:12,831 - INFO - 这是一个info
+2024-08-11 13:43:12,833 - ERROR - 这是一个error
+2024-08-11 13:43:33,979 - INFO - 这是一个info
+2024-08-11 13:43:33,980 - ERROR - 这是一个error
+2024-08-11 13:43:33,981 - WARNING - 这是一个warning
+2024-08-11 13:44:32,800 - INFO - 这是一个info
+2024-08-11 13:44:32,801 - ERROR - 这是一个error
+2024-08-11 13:44:32,802 - WARNING - 这是一个warning
+2024-08-11 13:44:36,388 - INFO - 这是一个info
+2024-08-11 13:44:36,389 - ERROR - 这是一个error
+2024-08-11 13:44:36,390 - WARNING - 这是一个warning
