@@ -1,0 +1,50 @@
+# 忽略Python编译文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 忽略虚拟环境
+venv/
+env/
+.env
+
+# 忽略IDE和编辑器相关文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 忽略操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 忽略日志文件
+*.log
+
+# 忽略临时文件
+*.tmp
+
+# 忽略Jupyter Notebook的检查点
+.ipynb_checkpoints/
+
+# 忽略测试文件和目录
+tests/
+test_*.py
+
+# 忽略文档
+docs/
+
+# 忽略构建输出
+build/
+dist/
+
+# 忽略依赖管理文件
+pip-lock.txt
+poetry.lock
+
+# 保留源代码
+!*.py
+!*.ipynb
+
+# 保留结果文件夹（假设结果存储在output目录）
+!output/
