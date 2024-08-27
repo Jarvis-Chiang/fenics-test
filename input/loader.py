@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
 import xml.dom.minidom as minidom
 
-class TopoShapeLoader:
+class ShapeLoader:
     def __init__(self, file_path):
         # 初始化加载器，设置文件路径和数据结构
         self.file_path = file_path
@@ -15,16 +15,18 @@ class TopoShapeLoader:
             for line in file:
                 line = line.strip()
                 # 根据关键字确定当前处理的部分
+                # 根据行首的标记来确定当前处理的部分
                 if line.startswith('*NODE'):
-                    current_section = 'node'
+                    current_section = 'node'  # 如果行首是'*NODE'，则当前处理的部分是节点
                 elif line.startswith('*ELEMENT'):
-                    current_section = 'element'
+                    current_section = 'element'  # 如果行首是'*ELEMENT'，则当前处理的部分是单元
                 elif line.startswith('*'):
-                    current_section = None
+                    current_section = None  # 如果行首是'*'但不是'*NODE'或'*ELEMENT'，则当前处理的部分为None
+                # 根据当前处理的部分来解析行
                 elif current_section == 'node':
-                    self._parse_node(line)
+                    self._parse_node(line)  # 如果当前处理的部分是节点，则解析节点数据
                 elif current_section == 'element':
-                    self._parse_element(line)
+                    self._parse_element(line)  # 如果当前处理的部分是单元，则解析单元数据
 
     def _parse_node(self, line):
         # 解析节点数据
@@ -73,7 +75,7 @@ class TopoShapeLoader:
     
 if __name__ == "__main__":
     # 主程序入口
-    loader = TopoShapeLoader("input/topo_shape.inp")
+    loader = ShapeLoader("input/topo_shape.inp")
     loader.load()
     # print(loader.get_nodes())
     # print(loader.get_elements())

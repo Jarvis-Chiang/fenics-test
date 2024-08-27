@@ -1,0 +1,410 @@
+2024-08-26 01:55:10,063 - FFC - Level 25 - Calling FFC just-in-time (JIT) compiler, this may take some time.
+2024-08-26 01:55:10,075 - FFC - INFO - Compiling form ffc_form_708e2e32c3ea0ce85d557f264955a4bac44b2aef
+
+2024-08-26 01:55:10,078 - FFC - INFO - Compiler stage 1: Analyzing form(s)
+2024-08-26 01:55:10,080 - FFC - INFO - -----------------------------------
+2024-08-26 01:55:10,158 - FFC - INFO -   
+2024-08-26 01:55:10,160 - FFC - INFO -   Geometric dimension:       2
+  Number of cell subdomains: 0
+  Rank:                      1
+  Arguments:                 '(v_0)'
+  Number of coefficients:    2
+  Coefficients:              '[f_247, f_250]'
+  Unique elements:           'Tensor<(2, 2) x CG1(?,?)>, DG0(?,?), Vector<2 x CG1(?,
+                             ?)>'
+  Unique sub elements:       'Tensor<(2, 2) x CG1(?,?)>, DG0(?,?), Vector<2 x CG1(?,
+                             ?)>, CG1(?,?)'
+  
+2024-08-26 01:55:10,162 - FFC - INFO -   representation:    auto --> uflacs
+2024-08-26 01:55:10,164 - FFC - INFO -   quadrature_rule:   auto --> default
+2024-08-26 01:55:10,165 - FFC - INFO -   quadrature_degree: auto --> 1
+2024-08-26 01:55:10,166 - FFC - INFO -   quadrature_degree: 1
+2024-08-26 01:55:10,169 - FFC - INFO -   
+2024-08-26 01:55:10,170 - FFC - INFO - Compiler stage 1 finished in 0.092236 seconds.
+
+2024-08-26 01:55:10,171 - FFC - INFO - Compiler stage 2: Computing intermediate representation
+2024-08-26 01:55:10,173 - FFC - INFO - -------------------------------------------------------
+2024-08-26 01:55:10,175 - FFC - INFO -   Computing representation of 0 elements
+2024-08-26 01:55:10,176 - FFC - INFO -   Computing representation of 0 dofmaps
+2024-08-26 01:55:10,178 - FFC - INFO -   Computing representation of 0 coordinate mappings
+2024-08-26 01:55:10,179 - FFC - INFO -   Computing representation of integrals
+2024-08-26 01:55:10,180 - FFC - INFO -   Computing uflacs representation
+2024-08-26 01:55:10,307 - FFC - INFO -   Computing representation of forms
+2024-08-26 01:55:10,309 - FFC - INFO -   
+2024-08-26 01:55:10,310 - FFC - INFO - Compiler stage 2 finished in 0.138795 seconds.
+
+2024-08-26 01:55:10,312 - FFC - INFO - Compiler stage 3: Optimizing intermediate representation
+2024-08-26 01:55:10,313 - FFC - INFO - --------------------------------------------------------
+2024-08-26 01:55:10,314 - FFC - INFO -   Optimizing uflacs representation
+2024-08-26 01:55:10,316 - FFC - INFO -   
+2024-08-26 01:55:10,317 - FFC - INFO - Compiler stage 3 finished in 0.00536919 seconds.
+
+2024-08-26 01:55:10,318 - FFC - INFO - Compiler stage 4: Generating code
+2024-08-26 01:55:10,320 - FFC - INFO - ---------------------------------
+2024-08-26 01:55:10,321 - FFC - INFO -   Generating code for 0 finite_element(s)
+2024-08-26 01:55:10,322 - FFC - INFO -   Generating code for 0 dofmap(s)
+2024-08-26 01:55:10,323 - FFC - INFO -   Generating code for 0 coordinate_mapping(s)
+2024-08-26 01:55:10,324 - FFC - INFO -   Generating code for integrals
+2024-08-26 01:55:10,326 - FFC - INFO -   Generating code from ffc.uflacs representation
+2024-08-26 01:55:10,339 - FFC - INFO -   Generating code for forms
+2024-08-26 01:55:10,341 - FFC - INFO -   
+2024-08-26 01:55:10,343 - FFC - INFO - Compiler stage 4 finished in 0.0243013 seconds.
+
+2024-08-26 01:55:10,344 - FFC - INFO - Compiler stage 4.1 finished in 2.86102e-06 seconds.
+
+2024-08-26 01:55:10,345 - FFC - INFO - Compiler stage 5: Formatting code
+2024-08-26 01:55:10,346 - FFC - INFO - ---------------------------------
+2024-08-26 01:55:10,347 - FFC - INFO -   
+2024-08-26 01:55:10,348 - FFC - INFO - Compiler stage 5 finished in 0.00328994 seconds.
+
+2024-08-26 01:55:10,349 - FFC - INFO - FFC finished in 0.271252 seconds.
+2024-08-26 02:00:37,496 - FFC - Level 25 - Calling FFC just-in-time (JIT) compiler, this may take some time.
+2024-08-26 02:00:37,500 - FFC - INFO - Compiling form ffc_form_06e3b3861cf330f67c47ca74bb0605d657747f09
+
+2024-08-26 02:00:37,502 - FFC - INFO - Compiler stage 1: Analyzing form(s)
+2024-08-26 02:00:37,503 - FFC - INFO - -----------------------------------
+2024-08-26 02:00:37,529 - FFC - INFO -   
+2024-08-26 02:00:37,532 - FFC - INFO -   Geometric dimension:       2
+  Number of cell subdomains: 0
+  Rank:                      1
+  Arguments:                 '(v_0)'
+  Number of coefficients:    2
+  Coefficients:              '[f_58, f_247]'
+  Unique elements:           'CG1(?,?), Vector<2 x CG1(?,?)>, DG0(?,?)'
+  Unique sub elements:       'CG1(?,?), Vector<2 x CG1(?,?)>, DG0(?,?)'
+  
+2024-08-26 02:00:37,534 - FFC - INFO -   representation:    auto --> uflacs
+2024-08-26 02:00:37,536 - FFC - INFO -   quadrature_rule:   auto --> default
+2024-08-26 02:00:37,537 - FFC - INFO -   quadrature_degree: auto --> 1
+2024-08-26 02:00:37,539 - FFC - INFO -   quadrature_degree: 1
+2024-08-26 02:00:37,540 - FFC - INFO -   
+2024-08-26 02:00:37,542 - FFC - INFO - Compiler stage 1 finished in 0.0400841 seconds.
+
+2024-08-26 02:00:37,543 - FFC - INFO - Compiler stage 2: Computing intermediate representation
+2024-08-26 02:00:37,544 - FFC - INFO - -------------------------------------------------------
+2024-08-26 02:00:37,546 - FFC - INFO -   Computing representation of 0 elements
+2024-08-26 02:00:37,548 - FFC - INFO -   Computing representation of 0 dofmaps
+2024-08-26 02:00:37,549 - FFC - INFO -   Computing representation of 0 coordinate mappings
+2024-08-26 02:00:37,550 - FFC - INFO -   Computing representation of integrals
+2024-08-26 02:00:37,552 - FFC - INFO -   Computing uflacs representation
+2024-08-26 02:00:37,587 - FFC - INFO -   Computing representation of forms
+2024-08-26 02:00:37,588 - FFC - INFO -   
+2024-08-26 02:00:37,590 - FFC - INFO - Compiler stage 2 finished in 0.0465138 seconds.
+
+2024-08-26 02:00:37,591 - FFC - INFO - Compiler stage 3: Optimizing intermediate representation
+2024-08-26 02:00:37,592 - FFC - INFO - --------------------------------------------------------
+2024-08-26 02:00:37,594 - FFC - INFO -   Optimizing uflacs representation
+2024-08-26 02:00:37,595 - FFC - INFO -   
+2024-08-26 02:00:37,596 - FFC - INFO - Compiler stage 3 finished in 0.00566339 seconds.
+
+2024-08-26 02:00:37,597 - FFC - INFO - Compiler stage 4: Generating code
+2024-08-26 02:00:37,599 - FFC - INFO - ---------------------------------
+2024-08-26 02:00:37,601 - FFC - INFO -   Generating code for 0 finite_element(s)
+2024-08-26 02:00:37,602 - FFC - INFO -   Generating code for 0 dofmap(s)
+2024-08-26 02:00:37,604 - FFC - INFO -   Generating code for 0 coordinate_mapping(s)
+2024-08-26 02:00:37,605 - FFC - INFO -   Generating code for integrals
+2024-08-26 02:00:37,606 - FFC - INFO -   Generating code from ffc.uflacs representation
+2024-08-26 02:00:37,610 - FFC - INFO -   Generating code for forms
+2024-08-26 02:00:37,612 - FFC - INFO -   
+2024-08-26 02:00:37,613 - FFC - INFO - Compiler stage 4 finished in 0.0155935 seconds.
+
+2024-08-26 02:00:37,615 - FFC - INFO - Compiler stage 4.1 finished in 4.76837e-06 seconds.
+
+2024-08-26 02:00:37,616 - FFC - INFO - Compiler stage 5: Formatting code
+2024-08-26 02:00:37,618 - FFC - INFO - ---------------------------------
+2024-08-26 02:00:37,619 - FFC - INFO -   
+2024-08-26 02:00:37,621 - FFC - INFO - Compiler stage 5 finished in 0.00452328 seconds.
+
+2024-08-26 02:00:37,621 - FFC - INFO - FFC finished in 0.119823 seconds.
+2024-08-26 02:00:38,847 - FFC - Level 25 - Calling FFC just-in-time (JIT) compiler, this may take some time.
+2024-08-26 02:00:38,849 - FFC - INFO - Compiling form ffc_form_96e76e2c75f758ad14dead2fa53cfeaeff5ee920
+
+2024-08-26 02:00:38,851 - FFC - INFO - Compiler stage 1: Analyzing form(s)
+2024-08-26 02:00:38,851 - FFC - INFO - -----------------------------------
+2024-08-26 02:00:38,870 - FFC - INFO -   
+2024-08-26 02:00:38,872 - FFC - INFO -   Geometric dimension:       2
+  Number of cell subdomains: 0
+  Rank:                      1
+  Arguments:                 '(v_0)'
+  Number of coefficients:    2
+  Coefficients:              '[f_247, f_250]'
+  Unique elements:           'CG1(?,?), DG0(?,?), Vector<2 x CG1(?,?)>'
+  Unique sub elements:       'CG1(?,?), DG0(?,?), Vector<2 x CG1(?,?)>'
+  
+2024-08-26 02:00:38,874 - FFC - INFO -   representation:    auto --> uflacs
+2024-08-26 02:00:38,875 - FFC - INFO -   quadrature_rule:   auto --> default
+2024-08-26 02:00:38,878 - FFC - INFO -   quadrature_degree: auto --> 1
+2024-08-26 02:00:38,879 - FFC - INFO -   quadrature_degree: 1
+2024-08-26 02:00:38,881 - FFC - INFO -   
+2024-08-26 02:00:38,883 - FFC - INFO - Compiler stage 1 finished in 0.0327544 seconds.
+
+2024-08-26 02:00:38,885 - FFC - INFO - Compiler stage 2: Computing intermediate representation
+2024-08-26 02:00:38,886 - FFC - INFO - -------------------------------------------------------
+2024-08-26 02:00:38,888 - FFC - INFO -   Computing representation of 0 elements
+2024-08-26 02:00:38,890 - FFC - INFO -   Computing representation of 0 dofmaps
+2024-08-26 02:00:38,891 - FFC - INFO -   Computing representation of 0 coordinate mappings
+2024-08-26 02:00:38,892 - FFC - INFO -   Computing representation of integrals
+2024-08-26 02:00:38,893 - FFC - INFO -   Computing uflacs representation
+2024-08-26 02:00:38,931 - FFC - INFO -   Computing representation of forms
+2024-08-26 02:00:38,932 - FFC - INFO -   
+2024-08-26 02:00:38,933 - FFC - INFO - Compiler stage 2 finished in 0.0484443 seconds.
+
+2024-08-26 02:00:38,935 - FFC - INFO - Compiler stage 3: Optimizing intermediate representation
+2024-08-26 02:00:38,936 - FFC - INFO - --------------------------------------------------------
+2024-08-26 02:00:38,937 - FFC - INFO -   Optimizing uflacs representation
+2024-08-26 02:00:38,939 - FFC - INFO -   
+2024-08-26 02:00:38,940 - FFC - INFO - Compiler stage 3 finished in 0.00540829 seconds.
+
+2024-08-26 02:00:38,942 - FFC - INFO - Compiler stage 4: Generating code
+2024-08-26 02:00:38,944 - FFC - INFO - ---------------------------------
+2024-08-26 02:00:38,945 - FFC - INFO -   Generating code for 0 finite_element(s)
+2024-08-26 02:00:38,947 - FFC - INFO -   Generating code for 0 dofmap(s)
+2024-08-26 02:00:38,948 - FFC - INFO -   Generating code for 0 coordinate_mapping(s)
+2024-08-26 02:00:38,950 - FFC - INFO -   Generating code for integrals
+2024-08-26 02:00:38,951 - FFC - INFO -   Generating code from ffc.uflacs representation
+2024-08-26 02:00:38,955 - FFC - INFO -   Generating code for forms
+2024-08-26 02:00:38,959 - FFC - INFO -   
+2024-08-26 02:00:38,960 - FFC - INFO - Compiler stage 4 finished in 0.0180755 seconds.
+
+2024-08-26 02:00:38,961 - FFC - INFO - Compiler stage 4.1 finished in 1.90735e-06 seconds.
+
+2024-08-26 02:00:38,963 - FFC - INFO - Compiler stage 5: Formatting code
+2024-08-26 02:00:38,964 - FFC - INFO - ---------------------------------
+2024-08-26 02:00:38,966 - FFC - INFO -   
+2024-08-26 02:00:38,967 - FFC - INFO - Compiler stage 5 finished in 0.00452065 seconds.
+
+2024-08-26 02:00:38,968 - FFC - INFO - FFC finished in 0.117882 seconds.
+2024-08-26 17:42:50,163 - FFC - Level 25 - Calling FFC just-in-time (JIT) compiler, this may take some time.
+2024-08-26 17:42:50,173 - FFC - INFO - Compiling form ffc_form_644a369d6e180c2215b77cd9f5a03ba841456d41
+
+2024-08-26 17:42:50,174 - FFC - INFO - Compiler stage 1: Analyzing form(s)
+2024-08-26 17:42:50,176 - FFC - INFO - -----------------------------------
+2024-08-26 17:42:50,220 - FFC - INFO -   
+2024-08-26 17:42:50,222 - FFC - INFO -   Geometric dimension:       2
+  Number of cell subdomains: 0
+  Rank:                      2
+  Arguments:                 '(v_0, v_1)'
+  Number of coefficients:    1
+  Coefficients:              '[f_2687]'
+  Unique elements:           'Vector<2 x CG1(?,?)>, DG0(?,?)'
+  Unique sub elements:       'Vector<2 x CG1(?,?)>, DG0(?,?), CG1(?,?)'
+  
+2024-08-26 17:42:50,225 - FFC - INFO -   representation:    auto --> uflacs
+2024-08-26 17:42:50,226 - FFC - INFO -   quadrature_rule:   auto --> default
+2024-08-26 17:42:50,228 - FFC - INFO -   quadrature_degree: auto --> 0
+2024-08-26 17:42:50,229 - FFC - INFO -   quadrature_degree: 0
+2024-08-26 17:42:50,231 - FFC - INFO -   
+2024-08-26 17:42:50,232 - FFC - INFO - Compiler stage 1 finished in 0.0587194 seconds.
+
+2024-08-26 17:42:50,234 - FFC - INFO - Compiler stage 2: Computing intermediate representation
+2024-08-26 17:42:50,235 - FFC - INFO - -------------------------------------------------------
+2024-08-26 17:42:50,237 - FFC - INFO -   Computing representation of 0 elements
+2024-08-26 17:42:50,238 - FFC - INFO -   Computing representation of 0 dofmaps
+2024-08-26 17:42:50,239 - FFC - INFO -   Computing representation of 0 coordinate mappings
+2024-08-26 17:42:50,240 - FFC - INFO -   Computing representation of integrals
+2024-08-26 17:42:50,243 - FFC - INFO -   Computing uflacs representation
+2024-08-26 17:42:50,296 - FFC - INFO -   Computing representation of forms
+2024-08-26 17:42:50,298 - FFC - INFO -   
+2024-08-26 17:42:50,299 - FFC - INFO - Compiler stage 2 finished in 0.0652583 seconds.
+
+2024-08-26 17:42:50,300 - FFC - INFO - Compiler stage 3: Optimizing intermediate representation
+2024-08-26 17:42:50,301 - FFC - INFO - --------------------------------------------------------
+2024-08-26 17:42:50,302 - FFC - INFO -   Optimizing uflacs representation
+2024-08-26 17:42:50,303 - FFC - INFO -   
+2024-08-26 17:42:50,305 - FFC - INFO - Compiler stage 3 finished in 0.00494528 seconds.
+
+2024-08-26 17:42:50,306 - FFC - INFO - Compiler stage 4: Generating code
+2024-08-26 17:42:50,307 - FFC - INFO - ---------------------------------
+2024-08-26 17:42:50,308 - FFC - INFO -   Generating code for 0 finite_element(s)
+2024-08-26 17:42:50,309 - FFC - INFO -   Generating code for 0 dofmap(s)
+2024-08-26 17:42:50,310 - FFC - INFO -   Generating code for 0 coordinate_mapping(s)
+2024-08-26 17:42:50,311 - FFC - INFO -   Generating code for integrals
+2024-08-26 17:42:50,313 - FFC - INFO -   Generating code from ffc.uflacs representation
+2024-08-26 17:42:50,330 - FFC - INFO -   Generating code for forms
+2024-08-26 17:42:50,337 - FFC - INFO -   
+2024-08-26 17:42:50,339 - FFC - INFO - Compiler stage 4 finished in 0.0325441 seconds.
+
+2024-08-26 17:42:50,340 - FFC - INFO - Compiler stage 4.1 finished in 1.90735e-06 seconds.
+
+2024-08-26 17:42:50,341 - FFC - INFO - Compiler stage 5: Formatting code
+2024-08-26 17:42:50,343 - FFC - INFO - ---------------------------------
+2024-08-26 17:42:50,345 - FFC - INFO -   
+2024-08-26 17:42:50,346 - FFC - INFO - Compiler stage 5 finished in 0.00469542 seconds.
+
+2024-08-26 17:42:50,348 - FFC - INFO - FFC finished in 0.174606 seconds.
+2024-08-26 17:43:00,318 - FFC - Level 25 - Calling FFC just-in-time (JIT) compiler, this may take some time.
+2024-08-26 17:43:00,321 - FFC - INFO - Compiling form ffc_form_391bd8684d0e93ba55579c8d71f975a5cc8154cf
+
+2024-08-26 17:43:00,323 - FFC - INFO - Compiler stage 1: Analyzing form(s)
+2024-08-26 17:43:00,324 - FFC - INFO - -----------------------------------
+2024-08-26 17:43:00,361 - FFC - INFO -   
+2024-08-26 17:43:00,364 - FFC - INFO -   Geometric dimension:       2
+  Number of cell subdomains: 0
+  Rank:                      1
+  Arguments:                 '(v_0)'
+  Number of coefficients:    2
+  Coefficients:              '[f_2707, f_2896]'
+  Unique elements:           'CG1(?,?), Vector<2 x CG1(?,?)>, DG0(?,?)'
+  Unique sub elements:       'CG1(?,?), Vector<2 x CG1(?,?)>, DG0(?,?)'
+  
+2024-08-26 17:43:00,368 - FFC - INFO -   representation:    auto --> uflacs
+2024-08-26 17:43:00,372 - FFC - INFO -   quadrature_rule:   auto --> default
+2024-08-26 17:43:00,374 - FFC - INFO -   quadrature_degree: auto --> 1
+2024-08-26 17:43:00,376 - FFC - INFO -   quadrature_degree: 1
+2024-08-26 17:43:00,379 - FFC - INFO -   
+2024-08-26 17:43:00,380 - FFC - INFO - Compiler stage 1 finished in 0.0577676 seconds.
+
+2024-08-26 17:43:00,382 - FFC - INFO - Compiler stage 2: Computing intermediate representation
+2024-08-26 17:43:00,385 - FFC - INFO - -------------------------------------------------------
+2024-08-26 17:43:00,388 - FFC - INFO -   Computing representation of 0 elements
+2024-08-26 17:43:00,392 - FFC - INFO -   Computing representation of 0 dofmaps
+2024-08-26 17:43:00,393 - FFC - INFO -   Computing representation of 0 coordinate mappings
+2024-08-26 17:43:00,397 - FFC - INFO -   Computing representation of integrals
+2024-08-26 17:43:00,399 - FFC - INFO -   Computing uflacs representation
+2024-08-26 17:43:00,482 - FFC - INFO -   Computing representation of forms
+2024-08-26 17:43:00,486 - FFC - INFO -   
+2024-08-26 17:43:00,489 - FFC - INFO - Compiler stage 2 finished in 0.106892 seconds.
+
+2024-08-26 17:43:00,491 - FFC - INFO - Compiler stage 3: Optimizing intermediate representation
+2024-08-26 17:43:00,494 - FFC - INFO - --------------------------------------------------------
+2024-08-26 17:43:00,496 - FFC - INFO -   Optimizing uflacs representation
+2024-08-26 17:43:00,498 - FFC - INFO -   
+2024-08-26 17:43:00,501 - FFC - INFO - Compiler stage 3 finished in 0.00983453 seconds.
+
+2024-08-26 17:43:00,503 - FFC - INFO - Compiler stage 4: Generating code
+2024-08-26 17:43:00,506 - FFC - INFO - ---------------------------------
+2024-08-26 17:43:00,509 - FFC - INFO -   Generating code for 0 finite_element(s)
+2024-08-26 17:43:00,512 - FFC - INFO -   Generating code for 0 dofmap(s)
+2024-08-26 17:43:00,513 - FFC - INFO -   Generating code for 0 coordinate_mapping(s)
+2024-08-26 17:43:00,516 - FFC - INFO -   Generating code for integrals
+2024-08-26 17:43:00,518 - FFC - INFO -   Generating code from ffc.uflacs representation
+2024-08-26 17:43:00,527 - FFC - INFO -   Generating code for forms
+2024-08-26 17:43:00,531 - FFC - INFO -   
+2024-08-26 17:43:00,534 - FFC - INFO - Compiler stage 4 finished in 0.0312102 seconds.
+
+2024-08-26 17:43:00,536 - FFC - INFO - Compiler stage 4.1 finished in 3.8147e-06 seconds.
+
+2024-08-26 17:43:00,540 - FFC - INFO - Compiler stage 5: Formatting code
+2024-08-26 17:43:00,542 - FFC - INFO - ---------------------------------
+2024-08-26 17:43:00,545 - FFC - INFO -   
+2024-08-26 17:43:00,547 - FFC - INFO - Compiler stage 5 finished in 0.00662446 seconds.
+
+2024-08-26 17:43:00,549 - FFC - INFO - FFC finished in 0.226376 seconds.
+2024-08-26 17:43:02,203 - FFC - Level 25 - Calling FFC just-in-time (JIT) compiler, this may take some time.
+2024-08-26 17:43:02,206 - FFC - INFO - Compiling form ffc_form_6d039c42d7a61f26ab1d44cf14745206c82b5239
+
+2024-08-26 17:43:02,208 - FFC - INFO - Compiler stage 1: Analyzing form(s)
+2024-08-26 17:43:02,210 - FFC - INFO - -----------------------------------
+2024-08-26 17:43:02,233 - FFC - INFO -   
+2024-08-26 17:43:02,235 - FFC - INFO -   Geometric dimension:       2
+  Number of cell subdomains: 0
+  Rank:                      1
+  Arguments:                 '(v_0)'
+  Number of coefficients:    2
+  Coefficients:              '[f_2896, f_2899]'
+  Unique elements:           'CG1(?,?), DG0(?,?), Vector<2 x CG1(?,?)>'
+  Unique sub elements:       'CG1(?,?), DG0(?,?), Vector<2 x CG1(?,?)>'
+  
+2024-08-26 17:43:02,237 - FFC - INFO -   representation:    auto --> uflacs
+2024-08-26 17:43:02,239 - FFC - INFO -   quadrature_rule:   auto --> default
+2024-08-26 17:43:02,241 - FFC - INFO -   quadrature_degree: auto --> 1
+2024-08-26 17:43:02,242 - FFC - INFO -   quadrature_degree: 1
+2024-08-26 17:43:02,245 - FFC - INFO -   
+2024-08-26 17:43:02,246 - FFC - INFO - Compiler stage 1 finished in 0.0380328 seconds.
+
+2024-08-26 17:43:02,248 - FFC - INFO - Compiler stage 2: Computing intermediate representation
+2024-08-26 17:43:02,250 - FFC - INFO - -------------------------------------------------------
+2024-08-26 17:43:02,252 - FFC - INFO -   Computing representation of 0 elements
+2024-08-26 17:43:02,254 - FFC - INFO -   Computing representation of 0 dofmaps
+2024-08-26 17:43:02,255 - FFC - INFO -   Computing representation of 0 coordinate mappings
+2024-08-26 17:43:02,257 - FFC - INFO -   Computing representation of integrals
+2024-08-26 17:43:02,259 - FFC - INFO -   Computing uflacs representation
+2024-08-26 17:43:02,291 - FFC - INFO -   Computing representation of forms
+2024-08-26 17:43:02,292 - FFC - INFO -   
+2024-08-26 17:43:02,293 - FFC - INFO - Compiler stage 2 finished in 0.0450113 seconds.
+
+2024-08-26 17:43:02,294 - FFC - INFO - Compiler stage 3: Optimizing intermediate representation
+2024-08-26 17:43:02,295 - FFC - INFO - --------------------------------------------------------
+2024-08-26 17:43:02,296 - FFC - INFO -   Optimizing uflacs representation
+2024-08-26 17:43:02,297 - FFC - INFO -   
+2024-08-26 17:43:02,298 - FFC - INFO - Compiler stage 3 finished in 0.00433731 seconds.
+
+2024-08-26 17:43:02,299 - FFC - INFO - Compiler stage 4: Generating code
+2024-08-26 17:43:02,300 - FFC - INFO - ---------------------------------
+2024-08-26 17:43:02,301 - FFC - INFO -   Generating code for 0 finite_element(s)
+2024-08-26 17:43:02,302 - FFC - INFO -   Generating code for 0 dofmap(s)
+2024-08-26 17:43:02,303 - FFC - INFO -   Generating code for 0 coordinate_mapping(s)
+2024-08-26 17:43:02,304 - FFC - INFO -   Generating code for integrals
+2024-08-26 17:43:02,305 - FFC - INFO -   Generating code from ffc.uflacs representation
+2024-08-26 17:43:02,310 - FFC - INFO -   Generating code for forms
+2024-08-26 17:43:02,312 - FFC - INFO -   
+2024-08-26 17:43:02,313 - FFC - INFO - Compiler stage 4 finished in 0.0143738 seconds.
+
+2024-08-26 17:43:02,315 - FFC - INFO - Compiler stage 4.1 finished in 2.14577e-06 seconds.
+
+2024-08-26 17:43:02,316 - FFC - INFO - Compiler stage 5: Formatting code
+2024-08-26 17:43:02,318 - FFC - INFO - ---------------------------------
+2024-08-26 17:43:02,320 - FFC - INFO -   
+2024-08-26 17:43:02,321 - FFC - INFO - Compiler stage 5 finished in 0.00462914 seconds.
+
+2024-08-26 17:43:02,322 - FFC - INFO - FFC finished in 0.113866 seconds.
+2024-08-26 17:43:04,135 - FFC - Level 25 - Calling FFC just-in-time (JIT) compiler, this may take some time.
+2024-08-26 17:43:04,137 - FFC - INFO - Compiling form ffc_form_c9eeabb1ba8c3ffda314d4237b72f540aeceec28
+
+2024-08-26 17:43:04,139 - FFC - INFO - Compiler stage 1: Analyzing form(s)
+2024-08-26 17:43:04,140 - FFC - INFO - -----------------------------------
+2024-08-26 17:43:04,158 - FFC - INFO -   
+2024-08-26 17:43:04,159 - FFC - INFO -   Geometric dimension:       2
+  Number of cell subdomains: 0
+  Rank:                      1
+  Arguments:                 '(v_0)'
+  Number of coefficients:    2
+  Coefficients:              '[f_2896, f_2899]'
+  Unique elements:           'Tensor<(2, 2) x CG1(?,?)>, DG0(?,?), Vector<2 x CG1(?,
+                             ?)>'
+  Unique sub elements:       'Tensor<(2, 2) x CG1(?,?)>, DG0(?,?), Vector<2 x CG1(?,
+                             ?)>, CG1(?,?)'
+  
+2024-08-26 17:43:04,161 - FFC - INFO -   representation:    auto --> uflacs
+2024-08-26 17:43:04,162 - FFC - INFO -   quadrature_rule:   auto --> default
+2024-08-26 17:43:04,163 - FFC - INFO -   quadrature_degree: auto --> 1
+2024-08-26 17:43:04,164 - FFC - INFO -   quadrature_degree: 1
+2024-08-26 17:43:04,165 - FFC - INFO -   
+2024-08-26 17:43:04,166 - FFC - INFO - Compiler stage 1 finished in 0.0279672 seconds.
+
+2024-08-26 17:43:04,168 - FFC - INFO - Compiler stage 2: Computing intermediate representation
+2024-08-26 17:43:04,169 - FFC - INFO - -------------------------------------------------------
+2024-08-26 17:43:04,170 - FFC - INFO -   Computing representation of 0 elements
+2024-08-26 17:43:04,171 - FFC - INFO -   Computing representation of 0 dofmaps
+2024-08-26 17:43:04,172 - FFC - INFO -   Computing representation of 0 coordinate mappings
+2024-08-26 17:43:04,173 - FFC - INFO -   Computing representation of integrals
+2024-08-26 17:43:04,175 - FFC - INFO -   Computing uflacs representation
+2024-08-26 17:43:04,219 - FFC - INFO -   Computing representation of forms
+2024-08-26 17:43:04,221 - FFC - INFO -   
+2024-08-26 17:43:04,223 - FFC - INFO - Compiler stage 2 finished in 0.0548458 seconds.
+
+2024-08-26 17:43:04,224 - FFC - INFO - Compiler stage 3: Optimizing intermediate representation
+2024-08-26 17:43:04,225 - FFC - INFO - --------------------------------------------------------
+2024-08-26 17:43:04,227 - FFC - INFO -   Optimizing uflacs representation
+2024-08-26 17:43:04,228 - FFC - INFO -   
+2024-08-26 17:43:04,230 - FFC - INFO - Compiler stage 3 finished in 0.0056231 seconds.
+
+2024-08-26 17:43:04,231 - FFC - INFO - Compiler stage 4: Generating code
+2024-08-26 17:43:04,232 - FFC - INFO - ---------------------------------
+2024-08-26 17:43:04,234 - FFC - INFO -   Generating code for 0 finite_element(s)
+2024-08-26 17:43:04,235 - FFC - INFO -   Generating code for 0 dofmap(s)
+2024-08-26 17:43:04,236 - FFC - INFO -   Generating code for 0 coordinate_mapping(s)
+2024-08-26 17:43:04,238 - FFC - INFO -   Generating code for integrals
+2024-08-26 17:43:04,239 - FFC - INFO -   Generating code from ffc.uflacs representation
+2024-08-26 17:43:04,244 - FFC - INFO -   Generating code for forms
+2024-08-26 17:43:04,247 - FFC - INFO -   
+2024-08-26 17:43:04,248 - FFC - INFO - Compiler stage 4 finished in 0.0173762 seconds.
+
+2024-08-26 17:43:04,250 - FFC - INFO - Compiler stage 4.1 finished in 2.14577e-06 seconds.
+
+2024-08-26 17:43:04,251 - FFC - INFO - Compiler stage 5: Formatting code
+2024-08-26 17:43:04,253 - FFC - INFO - ---------------------------------
+2024-08-26 17:43:04,254 - FFC - INFO -   
+2024-08-26 17:43:04,256 - FFC - INFO - Compiler stage 5 finished in 0.00465751 seconds.
+
+2024-08-26 17:43:04,257 - FFC - INFO - FFC finished in 0.118894 seconds.
